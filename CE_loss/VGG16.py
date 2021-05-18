@@ -1,11 +1,3 @@
-"""
-@File       : VGG16.py
-@Author     : Cao Zhijie
-@Email      : cao_zhijie@sjtu.edu.cn
-@Date       : 2019/11/17
-@Desc       : This is the VGG16 with FC removed
-"""
-
 import torch.nn as nn
 from torchvision import models
 from blocks import BaseConv

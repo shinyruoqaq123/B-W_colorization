@@ -1,7 +1,3 @@
-"""
-将widerface的分散在各个文件夹里的图片汇总到一起
-"""
-
 import os
 import sys
 

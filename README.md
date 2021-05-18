@@ -14,23 +14,23 @@ tensorflow>=2.0
 
 ### 2.Method
 #### (1) Cross-entropy model framework
-<img src="./images/img1.png" alt="CE_loss" width = "640" height = "480"/>
+<img src="./images/img1.png" alt="CE_loss" width = "640" height = "320"/>
 
 #### (2) Perceptual loss framework
-<img src="./images/img3.png" alt="Perceptual_loss" width = "640" height = "480"/>
+<img src="./images/img3.png" alt="Perceptual_loss" width = "640" height = "320"/>
 
 #### (3) GAN framework
-<img src="./images/img4.png" alt="GAN" width = "640" height = "480"/>
+<img src="./images/img4.png" alt="GAN" width = "640" height = "320"/>
 
 #### (4) UNet
-<img src="./images/img2.png" alt="UNet" width = "640" height = "480"/>
+<img src="./images/img2.png" alt="UNet" width = "480" height = "360"/>
 
 # How to run
 ### 1.Data Prepare
 Before training, we should prepare dataset first, we take the animals dataset as our example. 
 The downloaded animals dataset contains three category folders like below:
 
-<img src="./images/img7.png" alt="animals" width = "640" height = "480"/>
+<img src="./images/img7.png" alt="animals" width = "320" height = "240"/>
 
 Then you need to run the following five steps to pre process the downloaded dataset.
 ```shell script
@@ -44,7 +44,7 @@ python 4_generate_img_path_list.pu YourPath/animals/combined_images_valid_256
 
 Then the downloaded dataset has become like below:
 
-<img src="./images/img8.png" alt="animals_processed" width = "640" height = "480"/>
+<img src="./images/img8.png" alt="animals_processed" width = "320" height = "240"/>
 
 ### 2.Training
 #### (1) Training CIC or UNet with cross-entropy loss
@@ -113,7 +113,7 @@ python test.py YourPath/aninals/combined_images_valid_256_CE_CIC_output
 # Our Result
 We showed our result in the below two Figures:
 
-<img src="./images/img5.png" alt="animals_result" width = "640" height = "480"/>
+<img src="./images/img5.png" alt="animals_result" width = "640" height = "640"/>
 
-<img src="./images/img6.png" alt="human_result" width = "640" height = "480"/>
+<img src="./images/img6.png" alt="human_result" width = "640" height = "640"/>
 

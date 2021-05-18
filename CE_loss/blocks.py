@@ -1,11 +1,3 @@
-"""
-@File       : blocks.py
-@Author     : Cao Zhijie
-@Email      : cao_zhijie@sjtu.edu.cn
-@Date       : 2019/10/5
-@Desc       :
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

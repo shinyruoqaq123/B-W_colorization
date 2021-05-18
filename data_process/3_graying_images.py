@@ -1,7 +1,3 @@
-"""
-将widerface合并后图片灰度化，并保存在一个路径下
-"""
-
 import os
 import sys
 import cv2

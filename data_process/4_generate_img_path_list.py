@@ -1,8 +1,3 @@
-"""
-遍历animals数据
-产生图片的list
-"""
-
 import os
 import sys
 
